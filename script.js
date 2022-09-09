@@ -5,7 +5,7 @@ const App = () => {
             <Section />
             <Section1 />
             <Footer />
-        </div>  
+        </div>
     );
 }
 
@@ -13,16 +13,16 @@ const Header = () => {
     return (
         <div>
             <header className="header">
-            <div className="logo">
-            <h1>LOGO</h1>
-            </div>
-            <SearchBarInput />
-            <span className="menuItem"></span>
-            <span className="menuItem">About</span>
-            <span className="menuItem">Blog</span>
-            <span className="menuItem">Contacts</span>
-            <span className="menuItem">Shop</span>
-            <span className="menuItem">The Map</span>
+                <div className="logo">
+                    <h1>LOGO</h1>
+                </div>
+                <SearchBarInput />
+                <span className="menuItem"></span>
+                <span className="menuItem">About</span>
+                <span className="menuItem">Blog</span>
+                <span className="menuItem">Contacts</span>
+                <span className="menuItem">Shop</span>
+                <span className="menuItem">The Map</span>
             </header>
         </div>
     );
@@ -32,14 +32,14 @@ const Section = () => {
     return (
         <div>
             <section className="section">
-            <div className="sectionItem"></div>
-            <div className="sectionItem"></div>
-            <div className="sectionItem"></div>
-            <div className="sectionItem"></div>
-            <div className="sectionItem"></div>
-            <div className="sectionItem"></div>
-            <div className="sectionItem"></div>
-            <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
             </section>
         </div>
     );
@@ -48,16 +48,16 @@ const Section = () => {
 const Section1 = () => {
     return (
         <div>
-        <section className="section1">
-        <div className="sectionItem"></div>
-        <div className="sectionItem"></div>
-        <div className="sectionItem"></div>
-        <div className="sectionItem"></div>
-        <div className="sectionItem"></div>
-        <div className="sectionItem"></div>
-        <div className="sectionItem"></div>
-        <div className="sectionItem"></div>
-    </section>
+            <section className="section1">
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+                <div className="sectionItem"></div>
+            </section>
         </div>
     );
 }
@@ -67,29 +67,29 @@ const Footer = () => {
         <div>
             <footer className="footer">
                 <div className="footerParagraph">
-                <span>
-            
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis saepe expedita sit nostrum temporibus quod, fuga, incidunt
-                </span>
+                    <span>
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis saepe expedita sit nostrum temporibus quod, fuga, incidunt
+                    </span>
                 </div>
 
                 <div className="footerParagraph">
-                <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis saepe expedita sit nostrum temporibus quod, fuga, incidunt
-                </span>
+                    <span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis saepe expedita sit nostrum temporibus quod, fuga, incidunt
+                    </span>
                 </div>
 
                 <div className="footerParagraph">
-                <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis saepe expedita sit nostrum temporibus quod, fuga, incidunt
-                </span>
+                    <span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis saepe expedita sit nostrum temporibus quod, fuga, incidunt
+                    </span>
                 </div>
 
                 <div className="footerParagraph">
-                <div className="iconSimulation"></div>
-                <div className="iconSimulation"></div>
-                <div className="iconSimulation"></div>
-                <div className="iconSimulation"></div>
+                    <div className="iconSimulation"></div>
+                    <div className="iconSimulation"></div>
+                    <div className="iconSimulation"></div>
+                    <div className="iconSimulation"></div>
                 </div>
 
                 <div className="footerParagraph date">
@@ -105,13 +105,13 @@ const Footer = () => {
 
 
 const SearchBarInput = () => {
-    return(
+    return (
         <div>
             <div className="searchBarWrapper">
-            <div className="inputWrapper">
-            <input className="searchInput" type="text" />
-            <button>search</button>
-            </div>
+                <div className="inputWrapper">
+                    <input className="searchInput" type="text" />
+                    <button>search</button>
+                </div>
             </div>
         </div>
     );
